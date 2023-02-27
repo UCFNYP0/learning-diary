@@ -10,17 +10,20 @@
 
 -   Collection method ------ The detector is perpendicular to the direction of flight of the spacecraft and acquires images of a line at a time
 
--   Collection data -- all pixels in a row of images at the same time
+-   Collection data -- all pixels in a row of images at the same time 
 
--   example -- Spot Orbview
+-   example -- Spot and Orbview
 
-**Pushbroom Scanner** + The detector collects the field of view scanned by the detector as the direction of the rotating mirror changes
+**Pushbroom Scanner** 
+
+-   The detector collects the field of view scanned by the detector as the direction of the rotating mirror changes
 
 -   Images of narrow spectral bands from the visible to mid-infrared spectrum
 
 -   Landsat
 
-**comparision** + A push broom scanner receives a stronger signal than a whisk broom scanner, because it looks at each pixel area for longer.
+**comparision**
+- A push broom scanner receives a stronger signal than a whisk broom scanner, because it looks at each pixel area for longer.
 
 -   Push-scan data has different sensitivities. Not fully calibrated will result in streaks in the data
 
