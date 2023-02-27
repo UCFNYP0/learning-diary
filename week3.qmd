@@ -10,7 +10,11 @@
 
 -   Collection method ------ The detector is perpendicular to the direction of flight of the spacecraft and acquires images of a line at a time
 
+<<<<<<< HEAD
 -   Collection data -- all pixels in a row of images at the same time 
+=======
+-   Collection data -- all pixels in a row of images
+>>>>>>> e16bb901e5d61e85bdb32bc74b17812c7ad14dfc
 
 -   example -- Spot and Orbview
 
