@@ -4,40 +4,35 @@
 
 ### sensor scanner
 
-**How to acquire multispectral image data？**
 
-**Whiskbroom Scanner**
 
--   Collection method ------ The detector is perpendicular to the direction of flight of the spacecraft and acquires images of a line at a time
+**How to acquire multispectral image data**
 
-<<<<<<< HEAD
--   Collection data -- all pixels in a row of images at the same time 
-=======
--   Collection data -- all pixels in a row of images
->>>>>>> e16bb901e5d61e85bdb32bc74b17812c7ad14dfc
++ push room
 
--   example -- Spot and Orbview
+Collection method:The detector is perpendicular to the direction of flight of the spacecraft and acquires one image at a time
+Data collection:Measure all pixels in a row of images at the same time
+Example:Spot AND Orbview
 
-**Pushbroom Scanner** 
++ Whisk broom
 
--   The detector collects the field of view scanned by the detector as the direction of the rotating mirror changes
+Collection method:The detector collects the field of view scanned by the detector as the direction of the rotating mirror changes
+Data collection:Acquisition of images in a wide range of narrow spectral bands from the visible to mid-infrared spectrum
+Example:Landsat
 
--   Images of narrow spectral bands from the visible to mid-infrared spectrum
++ Compare
 
--   Landsat
+A push broom scanner receives a stronger signal than a whisk broom scanner, because it looks at each pixel area for longer.
 
-**comparision**
-- A push broom scanner receives a stronger signal than a whisk broom scanner, because it looks at each pixel area for longer.
-
--   Push-scan data has different sensitivities. Not fully calibrated will result in streaks in the data
 
 ### Connection
 
 #### geometric connection
 
-\*\* why we need to doing the geometric connection?
+**why we need to doing the geometric connection?**
 
--   View angle (off-nadir)\* - Nadir means directly down
+-   View angle (off-nadir)
+- Nadir means directly down
 -   Topography (e.g. hills not flat ground)
 -   Wind (if from a plane)
 -   Rotation of the earth (from satellite)
@@ -82,7 +77,9 @@ Raw satellite imagery contain distortions, which are induced by sensor orientati
 
 -   accurate elevation models are key.
 
-Feature distortion on raw imagery is heavily impacted by terrain variation. An accurate elevation model is required to calculate the effect of terrain variation on the image pixels. \#### Radiometric Calibration
+Feature distortion on raw imagery is heavily impacted by terrain variation. An accurate elevation model is required to calculate the effect of terrain variation on the image pixels.
+
+#### Radiometric Calibration
 
 Radiometric calibration is a crucial part of processing multispectral imagery, it enables the conversion of raw digital numbers (from the raw imagery), to sensor reflectance or irradiance, and then to surface reflectance values. Using a radiometric workflow enables the collection of repeatable reflectance data over different flights, dates, and weather conditions.
 

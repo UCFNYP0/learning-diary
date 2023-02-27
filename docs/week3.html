@@ -171,36 +171,28 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="4.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1</span> summary</h2>
 <section id="sensor-scanner" class="level3" data-number="4.1.1">
 <h3 data-number="4.1.1" class="anchored" data-anchor-id="sensor-scanner"><span class="header-section-number">4.1.1</span> sensor scanner</h3>
-<p><strong>How to acquire multispectral image data？</strong></p>
-<p><strong>Whiskbroom Scanner</strong></p>
+<p><strong>How to acquire multispectral image data</strong></p>
 <ul>
-<li><p>Collection method —— The detector is perpendicular to the direction of flight of the spacecraft and acquires images of a line at a time</p></li>
-<<<<<<< HEAD
-<li><p>Collection data – all pixels in a row of images at the same time</p></li>
-<li><p>example – Spot and Orbview</p></li>
-=======
-<li><p>Collection data – all pixels in a row of images</p></li>
-<li><p>example – Spot Orbview</p></li>
->>>>>>> e16bb901e5d61e85bdb32bc74b17812c7ad14dfc
+<li>push room</li>
 </ul>
-<p><strong>Pushbroom Scanner</strong></p>
+<p>Collection method:The detector is perpendicular to the direction of flight of the spacecraft and acquires one image at a time Data collection:Measure all pixels in a row of images at the same time Example:Spot AND Orbview</p>
 <ul>
-<li><p>The detector collects the field of view scanned by the detector as the direction of the rotating mirror changes</p></li>
-<li><p>Images of narrow spectral bands from the visible to mid-infrared spectrum</p></li>
-<li><p>Landsat</p></li>
+<li>Whisk broom</li>
 </ul>
-<p><strong>comparision</strong> - A push broom scanner receives a stronger signal than a whisk broom scanner, because it looks at each pixel area for longer.</p>
+<p>Collection method:The detector collects the field of view scanned by the detector as the direction of the rotating mirror changes Data collection:Acquisition of images in a wide range of narrow spectral bands from the visible to mid-infrared spectrum Example:Landsat</p>
 <ul>
-<li>Push-scan data has different sensitivities. Not fully calibrated will result in streaks in the data</li>
+<li>Compare</li>
 </ul>
+<p>A push broom scanner receives a stronger signal than a whisk broom scanner, because it looks at each pixel area for longer.</p>
 </section>
 <section id="connection" class="level3" data-number="4.1.2">
 <h3 data-number="4.1.2" class="anchored" data-anchor-id="connection"><span class="header-section-number">4.1.2</span> Connection</h3>
 <section id="geometric-connection" class="level4" data-number="4.1.2.1">
 <h4 data-number="4.1.2.1" class="anchored" data-anchor-id="geometric-connection"><span class="header-section-number">4.1.2.1</span> geometric connection</h4>
-<p>** why we need to doing the geometric connection?</p>
+<p><strong>why we need to doing the geometric connection?</strong></p>
 <ul>
-<li>View angle (off-nadir)* - Nadir means directly down</li>
+<li>View angle (off-nadir)</li>
+<li>Nadir means directly down</li>
 <li>Topography (e.g.&nbsp;hills not flat ground)</li>
 <li>Wind (if from a plane)</li>
 <li>Rotation of the earth (from satellite)</li>
@@ -239,7 +231,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>accurate elevation models are key.</li>
 </ul>
-<p>Feature distortion on raw imagery is heavily impacted by terrain variation. An accurate elevation model is required to calculate the effect of terrain variation on the image pixels. #### Radiometric Calibration</p>
+<p>Feature distortion on raw imagery is heavily impacted by terrain variation. An accurate elevation model is required to calculate the effect of terrain variation on the image pixels.</p>
+</section>
+<section id="radiometric-calibration" class="level4" data-number="4.1.2.4">
+<h4 data-number="4.1.2.4" class="anchored" data-anchor-id="radiometric-calibration"><span class="header-section-number">4.1.2.4</span> Radiometric Calibration</h4>
 <p>Radiometric calibration is a crucial part of processing multispectral imagery, it enables the conversion of raw digital numbers (from the raw imagery), to sensor reflectance or irradiance, and then to surface reflectance values. Using a radiometric workflow enables the collection of repeatable reflectance data over different flights, dates, and weather conditions.</p>
 <p><em>Without radiometric calibration, you may see the following effects:</em></p>
 <ul>
